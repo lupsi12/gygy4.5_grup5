@@ -12,6 +12,7 @@ public class MiniATM {
     private int totalBillsPaidCount = 0;
 
     // Güncel bakiyeyi almak için kullanılır.
+    //deneme
     public double getBalance(){
         return balance;
     }
