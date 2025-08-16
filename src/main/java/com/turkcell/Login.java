@@ -2,6 +2,8 @@ package com.turkcell;
 
 
 public class Login {
+    // final ile bir değişkenin değeri bir kez atandıktan sonra değiştirilemez.
+    // static tanımlanan değişken, tüm sınıf örnekleri için paylaşılır
     private static final String username = "user";
     private static final String password = "1234";
 

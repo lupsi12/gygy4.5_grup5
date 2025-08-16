@@ -17,6 +17,7 @@ public class Main {
             System.out.print("Şifre: ");
             String password = scanner.nextLine();
 
+            // login metodu static tanımlı o sebeple nesne oluşturulmadan kullanıldı.
             isLoggedIn = Login.login(username, password);
 
             if (isLoggedIn) {
